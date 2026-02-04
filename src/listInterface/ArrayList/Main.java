@@ -40,8 +40,6 @@ public class Main {
          Employee e3 = new Employee(04, "Tarique", 40, 500000);
 
 
-
-
         List list = Arrays.asList(e1, e2, e3, e);
         System.out.println(list);
 
