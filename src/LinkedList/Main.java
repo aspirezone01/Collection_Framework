@@ -3,13 +3,13 @@ package LinkedList;
 import java.util.LinkedList;
 
 class car{
-
-    String nme;
+    
+    String name;
     int year;
     String colour;
 
-public car(String nme, int year,String colour){
-    this.nme = nme;
+public car(String name, int year,String colour){
+    this.name = name;
     this.year = year;
     this.colour = colour;
 }
@@ -17,7 +17,7 @@ public car(String nme, int year,String colour){
     @Override
     public String toString() {
         return "car{" +
-                "nme='" + nme + '\'' +
+                "name='" + name + '\'' +
                 ", year=" + year +
                 ", colour='" + colour + '\'' +
                 '}';
